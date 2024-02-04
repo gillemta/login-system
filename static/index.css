@@ -1,0 +1,11 @@
+.index-section {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content-container {
+    text-align: center;
+}

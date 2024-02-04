@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='user-details.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="detail-section">
+        <div class="content-container">
+            <h3>Add User Details</h3>
+            <form class="form" method="post" action="{{ url_for('user_details') }}">
+                <input type="hidden" name="username" value="{{ username }}">
+                <input type="text" name="first" id="firt" placeholder="First*" required>
+                <input type="text" name="last" id="last" placeholder="Last*" required>
+                <input type="email" name="email" id="email" placeholder="Email*" required>
+                <div class="button-container">
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

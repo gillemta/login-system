@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #A2A2A2 ;
+    --accent-color: #0076F5;
+    --background-color: #E0E0E0;
+    --text-color: #000000;
+}
+
+body, html {
+    margin:0;
+    font-family: 'Nunito Sans';
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+input {
+    height: 32px;
+    padding-left: 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 64px;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.button:hover {
+    opacity: calc(0.7);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.message {
+    color: red;
+}
