@@ -58,10 +58,10 @@ This project is built with Python and Flask to demonstrate a simple authenticati
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/gillemta/login-system.git
-   cd login-system
-   ```
+  ```bash
+  git clone https://github.com/gillemta/login-system.git
+  cd login-system
+  ```
 
 2. **Create and Activate a Virtual Environment (Optional but Recommended):
 
@@ -78,10 +78,10 @@ This project is built with Python and Flask to demonstrate a simple authenticati
 
 4. **Run the Application:
 
-   ```bash
-   python app.py
-   ```
-   Open your browser and go to http://localhost:5000 to see the app in action.
+  ```bash
+  python app.py
+  ```
+  Open your browser and go to http://localhost:5000 to see the app in action.
 
 ---
 
