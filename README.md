@@ -109,7 +109,7 @@ Here are some visuals to help you understand the flow:
 ![Home Page Screenshot](assets/home.png)
 
 **Registration Page:**  
-![Registration Page Screenshot](assets/registration.pngh)
+![Registration Page Screenshot](assets/registration.png)
 
 **User Details Page:**  
 ![User Details Page Screenshot](assets/user-details.png)
