@@ -106,16 +106,16 @@ This project is built with Python and Flask to demonstrate a simple authenticati
 Here are some visuals to help you understand the flow:
 
 **Home Page:**  
-![Home Page Screenshot](path/to/home-screenshot.png)
+![Home Page Screenshot](assets/home.png)
 
 **Registration Page:**  
-![Registration Page Screenshot](path/to/register-screenshot.png)
+![Registration Page Screenshot](assets/registration.pngh)
 
 **User Details Page:**  
-![User Details Page Screenshot](path/to/user-details-screenshot.png)
+![User Details Page Screenshot](assets/user-details.png)
 
 **Display Info Page:**  
-![Display Info Page Screenshot](path/to/display-info-screenshot.png)
+![Display Info Page Screenshot](assets/display-info.png)
 
 ---
 
