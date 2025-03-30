@@ -116,14 +116,3 @@ Here are some visuals to help you understand the flow:
 
 **Display Info Page:**  
 ![Display Info Page Screenshot](assets/display-info.png)
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-
-
-
-
